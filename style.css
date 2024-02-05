@@ -1,3 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
 header {
     background-image: url(./header-img.jpg);
+    height: 600px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    color: white;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    align-items: center;
+    margin-top: 150px;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+.btn {
+    background-color: #3751b5;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 15px;
 }
