@@ -6,7 +6,7 @@ body {
 
 header {
     background-image: url(./header-img.jpg);
-    height: 700px;
+    height: 820px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,13 +38,13 @@ nav {
     text-align: center;
     color: white;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 h1 {
     margin: 0;
     padding: 0;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
 }
 
@@ -65,16 +65,19 @@ h1 {
     line-height: 30px;
     color: #a0a09e;
 }
+
 hr {
     width: 200px;
     border: 1px solid #3751b5;
     margin-top: 70px;
 }
+
 h2 {
     font-size: 30px;
     color: #787877;
     font-weight: 500;
 }
+
 .destination-images {
     display: flex;
     flex-direction: column;
@@ -82,50 +85,91 @@ h2 {
     gap: 10px;
 
 }
-.img-1-portrait{
+
+.img-1-portrait {
     background-image: url(./img-1.webp);
     height: 300px;
     width: 30%;
     background-size: cover;
 }
-.img-2-landscape{
+
+.img-2-landscape {
     background-image: url(./img-2.webp);
     height: 300px;
     width: 70%;
     background-position: bottom;
 }
-.img-1-landscape{
+
+.img-1-landscape {
     background-image: url(./img-3.jpg);
     height: 300px;
     width: 70%;
     background-size: cover;
 }
-.img-2-portrait{
+
+.img-2-portrait {
     background-image: url(./img-4.jpg);
     height: 300px;
     width: 30%;
     background-size: cover;
 }
+
 .destination-images1 {
     display: flex;
     gap: 10px;
 }
+
 .destination-images2 {
     display: flex;
     gap: 10px;
 }
+
 .bg-grey {
     background-color: #f5f5f5;
     padding-top: 30px;
 }
+
 .container {
     padding-bottom: 100px;
- }
+}
+
+.tour-package-tiles{
+    justify-content: space-evenly;
+    color: #a0a09e;
+    font-size: 18px;
+
+}
 .tiles-1 {
     display: grid;
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 420px 400px;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 35px;
 }
+
 .tiles-2 {
     display: grid;
-    grid-template-columns: 350px 350px;
-} 
+    grid-template-columns: 400px 400px;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 35px;
+}
+.testimonials-container {
+    max-width: 1100px;
+    text-align: center;
+    margin: 0 300px;
+    font-size: 25px;
+    color: #a0a09e;
+    line-height: 40px;
+}
+cite {
+    font-size: 20px;
+}
+
+.learn-more {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 770px;
+    color: #a0a09e;
+
+}
