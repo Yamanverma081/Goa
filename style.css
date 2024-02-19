@@ -57,7 +57,8 @@ h1 {
     border-radius: 4px;
     text-decoration: none;
     font-size: 18px;
-    cursor: progress;
+    box-shadow: 1px 2px 5px #3751b5;
+}
 }
 
 .destination {
