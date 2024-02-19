@@ -16,7 +16,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     color: white;
-    padding: 25px 100px;
+    padding: 50px 100px;
+    font-size: 20px;
 }
 
 .menu a {
@@ -26,8 +27,9 @@ nav {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
+    font-weight: 400;
 }
 
 .center {
@@ -35,26 +37,27 @@ nav {
     flex-direction: column;
     padding: 0;
     margin: 0;
-    text-align: center;
     color: white;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 220px;
+    font-size: 25px;
 }
 
 h1 {
     margin: 0;
     padding: 0;
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 60px;
+    font-weight: 500;
 }
 
 .btn {
     background-color: #3751b5;
     color: white;
-    padding: 12px 35px;
+    padding: 18px 50px;
     border-radius: 4px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
+    cursor: progress;
 }
 
 .destination {
@@ -69,7 +72,7 @@ h1 {
 hr {
     width: 200px;
     border: 1px solid #3751b5;
-    margin-top: 70px;
+    margin: 50px auto;
 }
 
 h2 {
@@ -133,12 +136,13 @@ h2 {
     padding-bottom: 100px;
 }
 
-.tour-package-tiles{
+.tour-package-tiles {
     justify-content: space-evenly;
     color: #a0a09e;
     font-size: 18px;
 
 }
+
 .tiles-1 {
     display: grid;
     grid-template-columns: 420px 400px;
@@ -154,6 +158,7 @@ h2 {
     text-align: center;
     line-height: 35px;
 }
+
 .testimonials-container {
     max-width: 1100px;
     text-align: center;
@@ -162,6 +167,7 @@ h2 {
     color: #a0a09e;
     line-height: 40px;
 }
+
 cite {
     font-size: 20px;
 }
@@ -171,5 +177,72 @@ cite {
     text-align: center;
     max-width: 770px;
     color: #a0a09e;
+
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #787877;
+    padding-bottom: 10px;
+}
+
+#input {
+    height: 40px;
+    width: 300px;
+}
+
+.s-btn {
+    background-color: #3751b5;
+    padding: 12px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+.subscribe-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+
+.img-crtsy {
+    background-color: #607d8b;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: #fff;
+    font-size: 13px;
+    justify-content: space-around;
+}
+
+.icon1 {
+    background-image: url(./guided_tour.png);
+    height: 50px;
+    background-repeat: no-repeat;
+}
+.icon2{
+    background-image: url(./photo_tour.png);
+    height: 50px;
+    background-repeat: no-repeat;
+}
+.icon3{
+    background-image: url(./motorcycle.png);
+    height: 50px;
+    background-repeat: no-repeat;
+}
+.icon4{
+    background-image: url(./safari_tour.png);
+    height: 50px;
+    background-repeat: no-repeat;
+}
+.footer-icons {
+
+}
+.footer-icon1 {
 
 }
