@@ -9,6 +9,7 @@ header {
     height: 820px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 50px;
 }
 
 nav {
@@ -27,9 +28,8 @@ nav {
 }
 
 .logo {
-    font-size: 30px;
-    font-weight: 600;
-    font-weight: 400;
+    font-size: 35px;
+    font-weight: 500;
 }
 
 .center {
@@ -70,21 +70,21 @@ h1 {
 }
 
 hr {
-    width: 200px;
-    border: 1px solid #3751b5;
-    margin: 50px auto;
+    width: 250px;
+    border: 1.5px solid #3751b5;
+    margin: 80px auto;
+    margin-bottom: 50px;
 }
 
 h2 {
-    font-size: 30px;
-    color: #787877;
-    font-weight: 500;
+    font-size: 40px;
+    color: #5E5B5C;
+    font-weight: 400;
 }
 
 .destination-images {
     display: flex;
     flex-direction: column;
-    margin: 0 150px;
     gap: 10px;
 
 }
@@ -132,10 +132,6 @@ h2 {
     padding-top: 30px;
 }
 
-.container {
-    padding-bottom: 100px;
-}
-
 .tour-package-tiles {
     justify-content: space-evenly;
     color: #a0a09e;
@@ -158,14 +154,18 @@ h2 {
     text-align: center;
     line-height: 35px;
 }
-
-.testimonials-container {
+.container {
     max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.testimonials-container {
     text-align: center;
-    margin: 0 300px;
     font-size: 25px;
     color: #a0a09e;
     line-height: 40px;
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 cite {
@@ -175,16 +175,19 @@ cite {
 .learn-more {
     margin: 0 auto;
     text-align: center;
-    max-width: 770px;
-    color: #a0a09e;
+    max-width: 750px;
 
+}
+.learn-p {
+    line-height: 35px;
+    color: #a0a09e;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
-    color: #787877;
-    padding-bottom: 10px;
+    color: #5E5B5C;
+    margin-bottom: 0;
 }
 
 #input {
@@ -206,7 +209,6 @@ h4 {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    padding-bottom: 80px;
 }
 
 .img-crtsy {
@@ -215,34 +217,13 @@ h4 {
     display: flex;
     align-items: center;
     gap: 50px;
-    color: #fff;
+    color: #8899A4;
     font-size: 13px;
     justify-content: space-around;
 }
-
-.icon1 {
-    background-image: url(./guided_tour.png);
-    height: 50px;
-    background-repeat: no-repeat;
-}
-.icon2{
-    background-image: url(./photo_tour.png);
-    height: 50px;
-    background-repeat: no-repeat;
-}
-.icon3{
-    background-image: url(./motorcycle.png);
-    height: 50px;
-    background-repeat: no-repeat;
-}
-.icon4{
-    background-image: url(./safari_tour.png);
-    height: 50px;
-    background-repeat: no-repeat;
-}
-.footer-icons {
-
-}
-.footer-icon1 {
-
+.footer-icon {
+    display: flex;
+    height: 30px;
+    gap: 15px;
+    justify-content: end;
 }
