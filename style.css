@@ -40,7 +40,6 @@ nav {
     color: white;
     align-items: center;
     margin-top: 220px;
-    font-size: 25px;
 }
 
 h1 {
@@ -49,7 +48,10 @@ h1 {
     font-size: 60px;
     font-weight: 500;
 }
-
+h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
 .btn {
     background-color: #3751b5;
     color: white;
