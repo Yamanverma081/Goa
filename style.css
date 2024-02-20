@@ -60,6 +60,7 @@ h3 {
     text-decoration: none;
     font-size: 18px;
     box-shadow: 1px 2px 5px #3751b5;
+    font-weight: 500;
 }
 
 .destination {
@@ -193,24 +194,25 @@ h4 {
 }
 
 #input {
-    height: 40px;
+    height: 44px;
     width: 300px;
 }
 
 .s-btn {
     background-color: #3751b5;
-    padding: 12px 30px;
+    padding: 18px 40px;
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 13px;
     border-radius: 3px;
-    padding-left: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .subscribe-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 35px;
 }
 
 .img-crtsy {
