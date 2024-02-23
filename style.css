@@ -6,7 +6,7 @@ body {
 
 header {
     background-image: url(./header-img.jpg);
-    height: 810px;
+    height: 815px;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 1000px 0px rgba(0, 0, 0, 0.3) inset;
@@ -64,7 +64,7 @@ h3 {
 
 .section-heading {
     text-align: center;
-    padding-top: 70px;
+    padding-top: 90px;
     max-width: 730px;
     margin: 0 auto;
     line-height: 30px;
@@ -75,7 +75,6 @@ hr {
     width: 250px;
     border: 1.5px solid #3751b5;
     margin: 80px auto;
-    margin-bottom: 50px;
 }
 
 h2 {
@@ -129,33 +128,28 @@ h2 {
 
 .bg-grey {
     background-color: #f5f5f5;
-    margin-top: 100px;
 }
 
 .tour-package-tiles {
     color: #a0a09e;
     font-size: 18px;
+    padding-top: 80px;
 
 }
 
-.tiles-1 {
+.tiles {
     display: grid;
     grid-template-columns: 420px 400px;
     justify-content: space-evenly;
     text-align: center;
     line-height: 35px;
+    gap: 100px;
 }
 
-.tiles-2 {
-    display: grid;
-    grid-template-columns: 400px 400px;
-    justify-content: space-evenly;
-    text-align: center;
-    line-height: 35px;
-}
 .container {
     max-width: 1100px;
     margin: 0 auto;
+    padding-bottom: 120px;
 }
 .testimonials-container {
     text-align: center;
@@ -179,27 +173,27 @@ h4 {
 }
 
 #input {
-    height: 45px;
+    height: 44px;
     width: 300px;
 }
 
 .s-btn {
     background-color: #3751b5;
-    padding: 18px 40px;
+    padding: 19px 42px;
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
-    border-radius: 3px;
+    font-size: 10px;
+    border-radius: 2px;
     font-weight: 600;
     text-transform: uppercase;
-    box-shadow: 3px 3px 2px #3751b5;
+    box-shadow: 1px 1px 2px #3751b5;
 }
 .submit-form {
     display: flex;
     justify-content: center;
     gap: 35px;
-    height: 150px;
-    align-items: baseline;
+    align-items: center;
+    height: 0px;
 }
 
 .footer-content {
