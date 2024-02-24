@@ -134,16 +134,14 @@ h2 {
     color: #a0a09e;
     font-size: 18px;
     padding-top: 80px;
-
-}
-
-.tiles {
     display: grid;
-    grid-template-columns: 420px 400px;
-    justify-content: space-evenly;
+    grid-template-columns: auto auto;
     text-align: center;
     line-height: 35px;
-    gap: 100px;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 3rem;
+
 }
 
 .container {
@@ -173,13 +171,13 @@ h4 {
 }
 
 #input {
-    height: 44px;
+    height: 42px;
     width: 300px;
 }
 
 .s-btn {
     background-color: #3751b5;
-    padding: 19px 42px;
+    padding: 18px 44px;
     color: #fff;
     text-decoration: none;
     font-size: 10px;
@@ -193,7 +191,7 @@ h4 {
     justify-content: center;
     gap: 35px;
     align-items: center;
-    height: 0px;
+    height: 55px;
 }
 
 .footer-content {
@@ -209,4 +207,7 @@ h4 {
     display: flex;
     height: 30px;
     gap: 15px;
+}
+.l-more-hr {
+    margin-bottom: 45px;
 }
